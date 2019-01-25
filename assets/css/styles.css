@@ -22,55 +22,56 @@ body {
     background-color: #ffffff
   }
 
-  #logo {
-      background-color: #4aaaa5;
-      margin-top: 15px;
-      margin-left: 150px;
-      height: 50px;
-      width: 150 px;
-      float: left;
+  .logo {
+    background-color: #4aaaa5;
+    margin: 15px 150px 0px 150px;
+    height: 50px;
+    width: 150 px;
+    float: left;
   }
 
-   a {
-    padding: 20px; 
+  .logo a {
     color: #ffffff;
+    padding: 20px; 
     text-decoration: none;
-    text-anchor: middle
+    text-anchor: middle;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
   }
 
-
+  .menu {
+    margin: 15px 300px 0px 150px;
+    height: 50px;
+    width: 150 px;
+    float: right;
+    overflow: hidden;
+  }
   /* Style the top navigation bar */
-nav {
-  overflow: hidden;
-}
+  .menu li {
+    display: inline;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 14px 16px;
+  }
 
-/* Style the topnav links */
-nav a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  .menu li a{
+    text-decoration: none;
+    color: #777777;
+  }
 
 /* Change color on hover */
-  nav a:hover {
+  .menu li a:hover {
     color: #4aaaa5;
   }
 
 /* Change color on active */
-  nav a:active {
+  .menu li a:active {
     color: coral;
   }
 
-  /* Change color on visited */
-  nav a:visited {
-    color: #777777;
-  }
-
   @media screen and (max-width: 400px) {
-  nav li a {
+  li a {
       float: none;
     }
   }
@@ -82,9 +83,9 @@ nav a {
   }
 
   section {
-    padding: 10px;
+    padding: 5px;
     width: 960px ;
-    margin: 50px 150px 80px 150px;
+    margin: 50px 150px 80px 250px;
     background-color: #ffffff;
   }
   
@@ -101,6 +102,7 @@ nav a {
   }
 
   section p {
+    padding: 30px;
     text-align: justify;
   }
 
