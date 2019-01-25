@@ -1,0 +1,215 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    font-size: '18px';
+    background-color:#EBEDEF;
+  }
+  
+  /* Style the header */
+  header {
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+    border-bottom-color: #cccccc;
+    border-bottom-style: outset;
+    height: 80px;
+    background-color: #ffffff
+  }
+
+  #logo {
+      background-color: #4aaaa5;
+      margin-top: 15px;
+      margin-left: 150px;
+      height: 50px;
+      width: 150 px;
+      float: left;
+  }
+
+   a {
+    padding: 20px; 
+    color: #ffffff;
+    text-decoration: none;
+    text-anchor: middle
+  }
+
+
+  /* Style the top navigation bar */
+nav {
+  overflow: hidden;
+}
+
+/* Style the topnav links */
+nav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+  nav a:hover {
+    color: #4aaaa5;
+  }
+
+/* Change color on active */
+  nav a:active {
+    color: coral;
+  }
+
+  /* Change color on visited */
+  nav a:visited {
+    color: #777777;
+  }
+
+  @media screen and (max-width: 400px) {
+  nav li a {
+      float: none;
+    }
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  section {
+    padding: 10px;
+    width: 960px ;
+    margin: 50px 150px 80px 150px;
+    background-color: #ffffff;
+  }
+  
+  section h1{
+    margin: 40 0 40 0 px;
+    color: #4aaaa5;
+  }
+  
+  section img {
+    width:230px;
+    height:170px;
+    margin: 10px 10px 10px 0px;
+    float: left;
+  }
+
+  section p {
+    text-align: justify;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 10%;
+    background-color:  #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  #form {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  #column1 {
+    float: left;
+  }
+  #column2 {
+    float: left;
+  }
+  div.gallery {
+    border: 1px none #ccc;
+    padding: 3px; 
+  }
+  
+  div.gallery:hover {
+    border: 1px none #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  /* Style the footer */
+  footer {
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    flex-shrink: 0;
+  }
+  
